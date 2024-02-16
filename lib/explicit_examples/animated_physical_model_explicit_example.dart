@@ -88,8 +88,7 @@ class _AnimatedPhysicalModelExplicitExampleState
               duration: const Duration(milliseconds: 1000),
               shape: BoxShape.circle,
               shadowColor: colorAnimation.value ?? Colors.white,
-              //const Color.fromARGB(255, 109, 16, 126),
-              color: Colors.black12,
+              color: colorAnimation.value ?? Colors.white,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(borderRadiusAnimation.value),
                 bottomRight: Radius.circular(borderRadiusAnimation.value),
