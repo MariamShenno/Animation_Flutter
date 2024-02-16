@@ -1,5 +1,5 @@
 
-import 'package:animation_folder/custom_painter_example/bouncing_ball_animation.dart';
+import 'package:animation_folder/explicit_examples/animated_physical_model_explicit_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BouncingBallAnimation(),
+      home: AnimatedPhysicalModelExplicitExample(),
     );
   }
 }
