@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+// @CopyRight Eng.Nawaf Dallah - Animation
 
+import 'package:flutter/material.dart';
 class LinearGradientAnimation extends StatefulWidget {
   const LinearGradientAnimation({Key? key}) : super(key: key);
 
